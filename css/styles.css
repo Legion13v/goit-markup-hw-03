@@ -38,7 +38,6 @@ img{
 .link {
   text-decoration: none;
 }
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -92,7 +91,6 @@ img{
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 .nav-item .link:hover,
 .nav-item .link:focus {
   color: var(--blue-color);
@@ -116,7 +114,9 @@ img{
 .contacts-item .link:focus {
   color: var(--blue-color);
 }
+
 /* Hero */
+
 .hero {
   background-color: #2f303a;
   padding-top: 200px;
@@ -181,7 +181,9 @@ img{
   text-transform: uppercase;
   color: var(--title-color);
 }
+
 /* Works */
+
 .work-section{
   padding-top: 0;
 }
@@ -202,18 +204,16 @@ img{
 }
 
 /* Team */
+
 .team-section {
   background-color: #f5f4fa;
-  padding-top: 0;
-  
-}
+ }
 .team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--title-color);
   margin-bottom: 10px;
-  
   text-align: center;
 }
 .team {
@@ -237,7 +237,9 @@ img{
 .description-block{
   padding: 30px 0;
 }
+
 /* Footer */
+
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -272,10 +274,10 @@ img{
   margin-bottom: 50px;
 }
 .filter-btn {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
-    height: 38px;
-  line-height: 1.88;
+  height: 38px;
+  line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--title-color);
   background-color: var(--btn-bcgrnd-color);
@@ -284,8 +286,7 @@ img{
   cursor: pointer;
   padding: 6px 22px;
 }
-.filter-item {
-}
+
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
